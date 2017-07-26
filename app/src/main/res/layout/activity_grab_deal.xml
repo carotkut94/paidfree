@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GrabDeal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="@dimen/padding_small">
+
+        <FrameLayout
+            android:id="@+id/flayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.death.paidfree.ThreeTwoImageView
+                android:id="@+id/photo"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:scaleType="centerCrop"
+                android:transitionName="@string/transition_photo" />
+
+            <Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?android:actionBarSize"
+                android:navigationIcon="@drawable/ic_arrow_black" />
+        </FrameLayout>
+        <LinearLayout
+            android:id="@+id/cont"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/flayout"
+            android:orientation="vertical"
+            android:transitionGroup="true">
+
+            <TextView
+                android:id="@+id/dealTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="@dimen/padding_normal"
+                android:paddingStart="@dimen/padding_normal"
+                android:paddingTop="@dimen/padding_large"
+                android:textAppearance="@android:style/TextAppearance.Material.Headline"
+                android:textColor="#e76e49" />
+
+            <TextView
+                android:id="@+id/deal_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.26315789474"
+                android:paddingEnd="@dimen/padding_normal"
+                android:paddingStart="@dimen/padding_normal"
+                android:paddingTop="@dimen/padding_normal"
+                android:text="Text"
+                android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+                android:textColor="#eee48c35" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

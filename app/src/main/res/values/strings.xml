@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">PaidFree</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Paid Free and More</string>
+    <string name="slide_1_desc">Its just not about Paid Free it\'s something more.</string>
+
+    <string name="transition_photo">transition_photo</string>
+    <string name="slide_2_title">Services</string>
+    <string name="slide_2_desc">It\'s about delivering quality content, weather it is a deal, news, code or sarcasm</string>
+
+    <string name="slide_3_title">Thirst</string>
+    <string name="slide_3_desc">I will feed your thirst for content you demand, sit back and enjoy your drink</string>
+
+    <string name="slide_4_title">No Monitoring</string>
+    <string name="slide_4_desc">Unlike others, I will not monitor your activity over your device, feel free as in freedom</string>
+
+    <string name="slide_5_title">Notifications</string>
+    <string name="slide_5_desc">I will send you notifications, whenever I will have something interesting and soothing</string>
+
+    <string name="slide_6_title">One last thing!</string>
+    <string name="slide_6_desc">I am small developer, not planning to earn so no Ads but, I want it to be my full time thing, if you like it please encourage others to use it.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

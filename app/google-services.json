@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1031179517514",
+    "firebase_url": "https://paidfree-6a778.firebaseio.com",
+    "project_id": "paidfree-6a778",
+    "storage_bucket": "paidfree-6a778.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031179517514:android:a01d66ca8511e733",
+        "android_client_info": {
+          "package_name": "com.death.paidfree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031179517514-7vc8sk5gshcj6ri1d32q764vurkbjgbk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.death.paidfree",
+            "certificate_hash": "a80383e9307126d1192bf39d9ed8b286518eaee2"
+          }
+        },
+        {
+          "client_id": "1031179517514-uk31mso546qo072pvp01p0po4n7h5a1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAktAfQn9WXTOGhE-tQx5mVtc625IHdAvg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031179517514-uk31mso546qo072pvp01p0po4n7h5a1i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
